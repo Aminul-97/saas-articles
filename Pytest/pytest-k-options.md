@@ -187,7 +187,7 @@ pytest -v -k checkout
 This command will test all the test functions related to `checkout`.
 Output:
 
-![pytest-k-example-result](/uploads/pytest-k-example-result-substring.jpg "pytest-k-example-result]")
+![pytest-k-example-result](img/pytest-k-example-result-substring.jpg "pytest-k-example-result]")
 
 **Using Python Expressions:**
 
@@ -199,7 +199,7 @@ This command will run all the tests containing the keyword `cart` but exclude th
 
 Output:
 
-![pytest-k-example-result](/uploads/pytest-k-example-result-pyex.jpg "pytest-k-example-result]")
+![pytest-k-example-result](img/pytest-k-example-result-pyex.jpg "pytest-k-example-result]")
 
 Let's try something more complex:
 
@@ -212,7 +212,7 @@ It will run all the tests containing the keyword `cart` but exclude the test con
 
 This is what the result looks like:
 
-![pytest-k-example-result](/uploads/pytest-k-example-result-pyex_2.jpg "pytest-k-example-result]")
+![pytest-k-example-result](img/pytest-k-example-result-pyex_2.jpg "pytest-k-example-result]")
 
 ## Other Options to Filter Tests
 Not all your tests may have filterable names. In this section, we are going to introduce two different ways to eliminate tests from your shortlist.
@@ -265,7 +265,7 @@ pytest -v tests/test_cart_operations.py
 
 The following will be the output.
 
-![pytest-k-example-result](/uploads/pytest-k-example-result-markers.jpg "pytest-k-example-result]")
+![pytest-k-example-result](img/pytest-k-example-result-markers.jpg "pytest-k-example-result]")
 
 
 ### Run Test by Node
@@ -280,7 +280,7 @@ pytest -v tests/test_cart_access.py::test_cart_core_authentication
 ```
 This command will only execute the test function `test_cart_core_authentication()`.
 
-![pytest-k-example-result](/uploads/pytest-k-example-result-node.jpg "pytest-k-example-result]")
+![pytest-k-example-result](img/pytest-k-example-result-node.jpg "pytest-k-example-result]")
 
 ## Best Practices when Using Pytest -K Options
 Let's explore some best practices and hints when using Pytest `-k` options.

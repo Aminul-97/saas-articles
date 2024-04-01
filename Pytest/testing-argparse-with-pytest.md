@@ -91,7 +91,7 @@ python src/script_argparse.py --name=John --age=30
 
 You'll have something like this,
 
-![pytest-CLI-argument-test-example](/uploads/pytest-cli-argument-test-argparse-code.JPG "pytest-CLI-argument-test-example")
+![pytest-CLI-argument-test-example](img/pytest-cli-argument-test-argparse-code.JPG "pytest-CLI-argument-test-example")
 
 If the user needs help with arguments, they can easily generate a quick guide using the `--help` flag,
 
@@ -101,7 +101,7 @@ python src/script_argparse.py --help
 
 You'll have the following output:
 
-![pytest-CLI-argument-test-example](/uploads/pytest-cli-argument-test-argparse-help.JPG "pytest-CLI-argument-test-example")
+![pytest-CLI-argument-test-example](img/pytest-cli-argument-test-argparse-help.JPG "pytest-CLI-argument-test-example")
 
 However, there are few issues with Argparse.
 
@@ -157,7 +157,7 @@ python src/script_typer.py John --age=30
 
 You'll have something like this,
 
-![pytest-CLI-argument-test-example](/uploads/pytest-cli-argument-test-typer-code.JPG "pytest-CLI-argument-test-example")
+![pytest-CLI-argument-test-example](img/pytest-cli-argument-test-typer-code.JPG "pytest-CLI-argument-test-example")
 
 If the user needs help with arguments, they can easily generate a quick guide using the following command,
 
@@ -167,7 +167,7 @@ python src/script_typer.py --help
 
 You'll have the following output:
 
-![pytest-CLI-argument-test-example](/uploads/pytest-cli-argument-test-typer-help.JPG "pytest-CLI-argument-test-example")
+![pytest-CLI-argument-test-example](img/pytest-cli-argument-test-typer-help.JPG "pytest-CLI-argument-test-example")
 
 Here is a brief note on arguments in general:
 
@@ -453,7 +453,7 @@ pytest -v tests/test_yaml_reader_list.py
 
 You'll have the following result:
 
-![pytest-CLI-argument-test-example-result](/uploads/pytest-cli-argument-test-example-list-test-result-argparse.JPG "pytest-CLI-argument-test-example-result")
+![pytest-CLI-argument-test-example-result](img/pytest-cli-argument-test-example-list-test-result-argparse.JPG "pytest-CLI-argument-test-example-result")
 
 Now, let's test the Typer YAML reader using the same method.
 
@@ -483,7 +483,7 @@ pytest -v tests/test_yaml_reader_list.py
 
 You'll have the following result:
 
-![pytest-CLI-argument-test-example-result](/uploads/pytest-cli-argument-test-example-list-test-result-typer.JPG "pytest-CLI-argument-test-example-result")
+![pytest-CLI-argument-test-example-result](img/pytest-cli-argument-test-example-list-test-result-typer.JPG "pytest-CLI-argument-test-example-result")
 
 ### Parametrized Testing
 Pytest parametrization allows you to run tests efficiently with multiple input data sets, eliminating the need for redundant test code. 
@@ -644,7 +644,7 @@ pytest -v tests/test_argparse_parametrization.py tests/test_typer_parametrizatio
 
 You'll have the following result:
 
-![pytest-CLI-argument-test-example-result](/uploads/pytest-cli-argument-test-example-param-test-result.JPG "pytest-CLI-argument-test-example-result")
+![pytest-CLI-argument-test-example-result](img/pytest-cli-argument-test-example-param-test-result.JPG "pytest-CLI-argument-test-example-result")
 
 ### Manual Testing with Pytest Addoption
 Pytest Addoption allows you to define custom CLI arguments for tests. These arguments can be used to modify the behavior of your tests or pass configuration parameters to your test function or fixtures.
@@ -724,7 +724,7 @@ pytest -v tests/test_yaml_reader_custom_cli.py
 
 You'll have the following result:
 
-![pytest-CLI-argument-test-example-result](/uploads/pytest-cli-argument-test-example-manual-test-result.JPG "pytest-CLI-argument-test-example-result")
+![pytest-CLI-argument-test-example-result](img/pytest-cli-argument-test-example-manual-test-result.JPG "pytest-CLI-argument-test-example-result")
 
 ## Running the test
 We've already run tests separately for each testing method.
@@ -737,7 +737,7 @@ pytest -v
 
 After executing the command, you may have the following output:
 
-![pytest-CLI-argument-test-example-result](/uploads/pytest-cli-argument-test-example-result.JPG "pytest-CLI-argument-test-example-result")
+![pytest-CLI-argument-test-example-result](img/pytest-cli-argument-test-example-result.JPG "pytest-CLI-argument-test-example-result")
 
 ## What To Test - Strategy
 Testing isn't just about perfect functionality, it's also about ensuring correct user interaction. Let's explore some essential strategies for effective application testing:

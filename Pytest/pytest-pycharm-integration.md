@@ -171,15 +171,15 @@ On the other hand, the Professional Edition provides advanced functionalities li
 
 Visit [Jetbrain's official website](https://www.jetbrains.com/pycharm/download/) to download PyCharm. Select `.exe` or `.dmg`, depending on your operating system.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-installing-pycharm-step-1.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-installing-pycharm-step-1.jpg "pytest-pycharm-integration-example")
 
 JetBrains makes you install the Professional Edition by default. However, you can download the free community version from the bottom on the page.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-installing-pycharm-step-2.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-installing-pycharm-step-2.jpg "pytest-pycharm-integration-example")
 
 During installation, you can choose to import existing settings if you have them or start from scratch.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-installing-pycharm-step-3.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-installing-pycharm-step-3.jpg "pytest-pycharm-integration-example")
 
 ### Open an Existing Project or Create a Project
 **Open an Existing Project**
@@ -188,15 +188,15 @@ We're going to open the existing project we cloned earlier.
 
 Clone [the repo](https://github.com/Pytest-with-Eric/pytest-pycharm-integration-example.git) if not already. Now, click "**Open**" from the opening window and locate the project.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-open-a-project-step-1.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-open-a-project-step-1.jpg "pytest-pycharm-integration-example")
 
 Then click "**Trust Project**" in the confirmation window. 
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-open-a-project-step-2.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-open-a-project-step-2.jpg "pytest-pycharm-integration-example")
 
 PyCharm allows you to create a `venv` automatically.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-open-a-project-step-3.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-open-a-project-step-3.jpg "pytest-pycharm-integration-example")
 
 Moreover, you can go to **File > Settings > Project:YOUR_PROJECT > Interpreter** to create a custom `venv`. 
 
@@ -207,37 +207,37 @@ You can open a Git repository as an existing project in PyCharm. However, To cre
 
 To create a project in PyCharm, click `New Project`, fill in details like project name, location, etc. and click `Create`.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-project.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-project.jpg "pytest-pycharm-integration-example")
 
 ### Create a Virtual Environment
 PyCharm allows you to create a project-specific, isolated virtual environment. The following steps will walk you through creating a virtual environment.
 
 Click the `Gear` icon at the top right corner, then click on settings,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-1.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-1.jpg "pytest-pycharm-integration-example")
 
 Inside **Project: Project_Name > Python Interpreter** (Already open by default). You can see a list of installed packages for your current virtual environment. 
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-2.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-2.jpg "pytest-pycharm-integration-example")
 
 Click "**Add Interpreter**", then "**Add Local Interpreter**",
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-3.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-3.jpg "pytest-pycharm-integration-example")
 
 Inside the **Virtualenv environment**, there are a few options:
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-7.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-7.jpg "pytest-pycharm-integration-example")
 
 **Environment:** Select the new to create a new virtual environment. Or, you can import and existing virtual environment by clicking "Existing" and browse the location of `venv`.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-6.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-6.jpg "pytest-pycharm-integration-example")
 
 **Location:** If creating a new `venv`, define the location of the virtual environment.
 **Base interpreter:** If creating a new `venv`, select the base interpreter.
 
 Mark the **Inherit global site-packages** checkbox if you want all packages installed in the global Python on your machine to be added to the virtual environment you're going to create. 
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-4.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-4.jpg "pytest-pycharm-integration-example")
 
 Lastly, click on **OK**.
 
@@ -245,35 +245,35 @@ You can switch to virtual environments by clicking the right button corner, ment
 
 Now select a virtual environment.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-create-a-virtual-environment-step-5.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-create-a-virtual-environment-step-5.jpg "pytest-pycharm-integration-example")
 
 ### Writing Tests
 Pytest will automatically detect tests in the `tests/` directory.
 
 You can also add tests for a function by right-clicking on its name and selecting **Go To > Test**.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-write-test-step-1.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-write-test-step-1.jpg "pytest-pycharm-integration-example")
 
 Now click `Create New Test...`
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-write-test-step-2.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-write-test-step-2.jpg "pytest-pycharm-integration-example")
 
 ### Configuring PyCharm for Pytest (Optional)
 **Set Pytest as Default Test Runner**
 To set Pytest as the default test runner, click on the `Gear` icon at the top right corner or go to **File > Settings** and navigate **Tools > Python Integrated Tools**,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-set-pytest-as-default-step-1.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-set-pytest-as-default-step-1.jpg "pytest-pycharm-integration-example")
 
 In the `Testing` option, set the default test runner to Pytest.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-set-pytest-as-default-step-2.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-set-pytest-as-default-step-2.jpg "pytest-pycharm-integration-example")
 
 Finally, click `Apply` then `OK`.
 
 **Providing Configuration for Pytest**
 You can apply more test configurations by going **Run > Edit Configuration**.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-more-configuration.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-more-configuration.jpg "pytest-pycharm-integration-example")
 
 Let's describe the options:
 
@@ -296,7 +296,7 @@ def test_true(foo, bar):
 - **Environment variable**: Specify the desired set of environment variables in the Environment Variables dialog (e.g., `API_ENDPOINT=www.test_api_endpoint.com
 `). To set an environment variable, click the explore button, then click the plus icon to create an environment variable, and enter the desired name and value. 
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-set-env-variable.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-set-env-variable.jpg "pytest-pycharm-integration-example")
 
 This article briefly discusses defining [environment variables](https://pytest-with-eric.com/pytest-best-practices/pytest-environment-variables/).
 - **Python Interpreter**: Specify the command-line options.
@@ -311,40 +311,40 @@ You may also provide these options in Pytest configuration files like `pytest.in
 ## Running Tests
 To run tests, click on the **Play** icon at the top of the window,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-run-test.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-run-test.jpg "pytest-pycharm-integration-example")
 
 It will run all the tests inside the `tests/` directory,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-run-test-result.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-run-test-result.jpg "pytest-pycharm-integration-example")
 
 Notice the screenshot and see how PyCharm marks a failed and passed test.
 
 You can also run single tests by using the **Play** icon on the left side of each function,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-run-single-test.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-run-single-test.jpg "pytest-pycharm-integration-example")
 
 Now, you have the test results for a single test function,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-run-single-test-result.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-run-single-test-result.jpg "pytest-pycharm-integration-example")
 
 ## Installing Pytest Manually
 We sometimes need to install Pytest manually for a variety of reasons, such as fixing errors, Pytest updates, and so on.
 
 To install Pytest manually in your PyCharm environment, go to the bottom left corner of the window and click the `Stack` icon.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-install-pytest-step-1.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-install-pytest-step-1.jpg "pytest-pycharm-integration-example")
 
 Now, search for Pytest, and you'll see it at the top under the `PyPL` section. 
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-install-pytest-step-2.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-install-pytest-step-2.jpg "pytest-pycharm-integration-example")
 
 Click on it and you'll find the `Install package` option at the right.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-install-pytest-step-3.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-install-pytest-step-3.jpg "pytest-pycharm-integration-example")
 
 After the successful installation of Pytest. You'll see a message like the one below,
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-install-pytest-step-4.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-install-pytest-step-4.jpg "pytest-pycharm-integration-example")
 ## Troubleshooting Common Issues
 
 **Failed to create virtual environment in PyCharm or PyCharm doesn't recognize the virtual environment**
@@ -368,7 +368,7 @@ When running tests, you may encounter an error mentioning `FileNotFoundException
 
 To fix it, ensure tests are placed in the correct directory. Then, navigate to **Run > Edit Configuration** and execute tests from the root directory by enabling "Add source roots to PYTHONPATH".
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-filenotfoundexception.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-filenotfoundexception.jpg "pytest-pycharm-integration-example")
 
 **Pytest-html error in PyCharm**
 You can generate an HTML report by installing the `pytest-html` plugin. However, occasionally, when running tests, you may encounter the following error:
@@ -381,7 +381,7 @@ To fix it, go to **Run > Edit Configuration** and provide the following argument
 ```shell
 --html=Reports/Report.html  --self-contained-html
 ```
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-html-file-error.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-html-file-error.jpg "pytest-pycharm-integration-example")
 
 
 ## Code Coverage (Professional Edition Only)
@@ -393,7 +393,7 @@ To create a coverage report. Open your preferred test file and left-click on it.
 
 You can view the coverage data by clicking on the **Shield** symbol in the upper right corner. Feel free to experiment with the PyCharm Professional Edition to see the coverage report.
 
-![pytest-pycharm-integration-example](/uploads/pytest-pycharm-integration-run-test-result-coverage.jpg "pytest-pycharm-integration-example")
+![pytest-pycharm-integration-example](img/pytest-pycharm-integration-run-test-result-coverage.jpg "pytest-pycharm-integration-example")
 
 ## Wrapping Up
 That's all for today.
